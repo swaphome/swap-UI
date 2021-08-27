@@ -6,12 +6,14 @@
 .banBg {
   background-color: rgba(255,255,255,0.02);
 }
-  .heading {
+
+.heading {
   font-weight: 600;
   font-size: 48px;
   line-height: 56px;
-  }
-  .heading-desc {
+}
+
+.heading-desc {
   font-size: 18px;
   line-height: 21px;
   }
@@ -100,7 +102,21 @@
   .grid-spc {
   margin-bottom: 30px;
   }
-  
+  .mt-30{
+    margin-top: -30px !important;
+  }
+  .ptn-30{
+    padding-top: -30px !important;
+  }
+  .mtn-30{
+    margin-top: -30px !important;
+  }
+  .pbn-30{
+    padding-bottom: -30px !important;
+  }
+  .mbn-30{
+    margin-bottom: -30px !important;
+  }
   .heading-wrap {
   margin-bottom: 70px;
   }
@@ -140,5 +156,18 @@
     }
     &:last-child{
       margin-bottom: 0;
+    }
+  }
+
+  // 
+  .benefits-grid {
+    border: 1px solid #fff;
+    margin-right: -1px;
+    margin-bottom: -1px;
+  }
+
+  .products-grid{
+    &:last-child{
+      margin-bottom: 0px;
     }
   }

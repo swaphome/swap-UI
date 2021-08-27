@@ -262,12 +262,7 @@ nav {
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.benefits-box {
-  border: 1px solid #fff;
-}
-
 .benefits-box-second {
-  border-right: 1px solid #fff;
   padding: 50px;
   margin-right: -2px;
 }
@@ -360,7 +355,6 @@ nav {
 
   .benefits-box-second {
     padding: 30px;
-    border-bottom: 1px solid #fff;
   }
 
   .blog-section .col-lg-4 {
