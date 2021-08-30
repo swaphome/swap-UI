@@ -442,7 +442,7 @@ nav {
     padding: 30px;
   }
 
-  .blog-section .col-lg-4 {
+  .blog-section .Money-text {
     margin-bottom: 30px;
   }
 
@@ -464,8 +464,7 @@ nav {
   .farming-section .farming-control {
     margin-top: 30px;
   }
-
-  .farming-section .farming-control:nth-child(1) {
+  .farming-section .farming-control :nth-child(1) {
     margin-top: 0px;
   }
 
@@ -478,6 +477,9 @@ nav {
     line-height: 48px;
     font-size: 28px;
   }
+  .banner-section h6 {
+    padding: 6px 6px;
+  }
 
   .platforms-wrap .platform {
     background: none;
@@ -489,10 +491,6 @@ nav {
   .reimagine-section h1 {
     font-size: 30px !important;
     line-height: 38px !important;
-  }
-
-  .banner-section h6 {
-    padding: 6px 6px;
   }
 }
 #lottie {
