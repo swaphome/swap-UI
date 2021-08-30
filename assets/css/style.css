@@ -729,7 +729,7 @@ nav {
 }
 @media (max-width: 575px) {
   .pyPad {
-    padding: 45px 0;
+    padding: 50px 0;
   }
 }
 
@@ -753,7 +753,7 @@ nav {
 }
 @media (max-width: 575px) {
   .ptPad {
-    padding-top: 45px;
+    padding-top: 50px;
   }
 }
 
@@ -777,7 +777,7 @@ nav {
 }
 @media (max-width: 575px) {
   .pbPad {
-    padding-bottom: 45px;
+    padding-bottom: 50px;
   }
 }
 
@@ -801,7 +801,7 @@ nav {
 }
 @media (max-width: 575px) {
   .gridPad {
-    padding-bottom: calc(45px - 30px);
+    padding-bottom: calc(50px - 30px);
   }
 }
 
