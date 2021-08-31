@@ -315,13 +315,18 @@ background-color: rgba(255, 255, 255, 0.02);
 
 
 .footer-section{
-  ul li a{
-    color: #fff;
-    opacity: 0.6;
-    margin-bottom: 12px;
-    display: block;
+  .ftr-item-lst{
+    li{
+      a{
+        color: #fff;
+        opacity: 0.6;
+        margin-bottom: 12px;
+        display: block;
+      }
+    }
   }
 } 
+
 .bottom-footer{
   border-top:1px solid rgba(231,233,238,0.17);
   .footer-logo{
@@ -329,6 +334,23 @@ background-color: rgba(255, 255, 255, 0.02);
   }
   .footer-logo-second{
     border-right: 1px solid rgba(231,233,238,0.17);
+  }
+  .social-icons{
+    display: flex;
+    align-items: center;
+    li{
+      margin-right: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      &:last-child{
+        margin-right:0;
+      }
+      a{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+      }
+    }
   }
 }
 .last-nav-link a:nth-child(2){

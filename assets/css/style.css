@@ -403,7 +403,7 @@ nav {
   padding: 50px 50px 30px;
 }
 
-.footer-section ul li a {
+.footer-section .ftr-item-lst li a {
   color: #fff;
   opacity: 0.6;
   margin-bottom: 12px;
@@ -418,6 +418,23 @@ nav {
 }
 .bottom-footer .footer-logo-second {
   border-right: 1px solid rgba(231, 233, 238, 0.17);
+}
+.bottom-footer .social-icons {
+  display: flex;
+  align-items: center;
+}
+.bottom-footer .social-icons li {
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.bottom-footer .social-icons li:last-child {
+  margin-right: 0;
+}
+.bottom-footer .social-icons li a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 .last-nav-link a:nth-child(2) {
